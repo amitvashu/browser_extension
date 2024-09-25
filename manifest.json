@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Random Quote on New Tab",
+    "version": "1.0",
+    "description": "Displays a random quote each time you open a new tab.",
+    "chrome_url_overrides": {
+      "newtab": "newtab.html"
+    },
+    "permissions": ["storage"],
+    "action": {
+      "default_popup": "newtab.html"
+    },
+    "icons": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  }
+  
